@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "visual_ids",
+  "info": {
+    "singularName": "visual-id",
+    "pluralName": "visual-ids",
+    "displayName": "Visual-id"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

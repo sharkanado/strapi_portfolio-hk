@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "traditional_arts",
+  "info": {
+    "singularName": "traditional-art",
+    "pluralName": "traditional-arts",
+    "displayName": "traditional-art"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

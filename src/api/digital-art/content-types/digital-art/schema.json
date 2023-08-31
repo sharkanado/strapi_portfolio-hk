@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "digital_arts",
+  "info": {
+    "singularName": "digital-art",
+    "pluralName": "digital-arts",
+    "displayName": "Digital-art"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
